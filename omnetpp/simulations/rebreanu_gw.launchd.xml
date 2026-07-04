@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <copy file="rebreanu_gw.sumocfg" type="config"/>
+    <copy file="rebreanu_final_clean_all_cycles_gw.net.xml"/>
+    <copy file="rebreanu.rou.xml"/>
+    <copy file="rebreanu_shapes.poly.xml"/>
+</launch>

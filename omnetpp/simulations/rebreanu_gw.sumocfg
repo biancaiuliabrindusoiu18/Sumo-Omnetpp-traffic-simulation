@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="rebreanu_final_clean_all_cycles_gw.net.xml"/>
+        <additional-files value="rebreanu_shapes.poly.xml"/>
+		<route-files value="rebreanu.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1200"/>
+    </time>
+</configuration>

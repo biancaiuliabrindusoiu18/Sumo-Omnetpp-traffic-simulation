@@ -1,0 +1,7 @@
+<launch>
+    <copy file="rebreanu_final_clean_all_cycles.net.xml"/>
+    <copy file="rebreanu_normal.rou.xml"/>
+    <copy file="rebreanu_shapes.poly.xml"/>
+    <copy file="rebreanu_detectors.add.xml"/>
+    <copy file="scenariu_normal_static.sumocfg" type="config"/>
+</launch>

@@ -1,0 +1,11 @@
+out/
+results/
+*.vec
+*.sca
+*.vci
+*.o
+*.anf
+*.exe
+*.obj
+*.dll
+*.so

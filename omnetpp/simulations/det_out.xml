@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/21/26 22:20:02 by Eclipse SUMO GUI Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\licenta%20rebreanu\omnetpp\simulations\rebreanu_final_clean_all_cycles.net.xml"/>
+        <route-files value="D:\licenta%20rebreanu\omnetpp\simulations\rebreanu_normal.rou.xml"/>
+        <additional-files value="D:\licenta%20rebreanu\omnetpp\simulations\rebreanu_shapes.poly.xml,D:\licenta%20rebreanu\omnetpp\simulations\rebreanu_detectors.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+</detector>
