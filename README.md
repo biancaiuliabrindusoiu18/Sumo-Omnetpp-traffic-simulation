@@ -35,9 +35,8 @@ https://omnetpp.org/download/old.html
 Instalare Veins 5.2
 https://veins.car2x.org/download/
 
-Se dezarhiveaza OMNeT++. 
+Se dezarhiveaza OMNeT++. Se urmaresc instructiunile de instalare obisnuite.
 De deschide terminalul livrat cu OMNeT++, mingenv.md. Toate comenzile de build se pot rula in acest shell.
-La prima deschidere ./configure.
 IDE-ul se lanseaza cu omnetpp din acelasi shell.
 
 Se dezarhciveaza Veins in workspace-ul din OMNeT++. Se importa Veins in IDE-ul OMNeT++ (file-import-general-existing peojects into workspace-select veins). Acum veins e disponibil in workspace.
@@ -46,17 +45,17 @@ Pentru a fi disponibil in proiectul propriu: project-properties-project refernce
 
 Pentru compilare project-build all
 
-# Pentru rularea unei simulari
-Rulare presupune 2 procese
+# Pentru compilare
+presupune 2 procese
 
-1. pornire legatura sumo-omnetpp
+1. pornirea legaturii sumo-omnetpp
 
-Intr-un terminal mingenv, si il las sa ruleze pe tot parcursul simularii: 
+Intr-un terminal mingenv, si se lasa sa ruleze pe tot parcursul simularii: 
 /d/omn/veins-5.2/veins-veins-5.2/bin/veins_launchd -vv -c "C:/Program Files (x86)/Eclipse/Sumo/bin/sumo-gui"
 
 Practic scriptul asculta pe portul 9999 si porneste sumo-gui automat cand omnetpp cere conexiune
 
-2. lansare simularea
+2. lansarea simularii
 
 Din IDE, click dreapta pe simulations/omentpp.ini, run as - OMNET++ Simulation, sau configure simulation de unde pot alege: qtenv sau cmdenv.
 Se alege scenariul dorit si se da start. Cand pornesc simularea din oment, va rula simulatn si sumo.
