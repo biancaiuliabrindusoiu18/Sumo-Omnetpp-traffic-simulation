@@ -36,13 +36,13 @@ Instalare Veins 5.2
 https://veins.car2x.org/download/
 
 Se dezarhiveaza OMNeT++. 
-De deschide terminalul livrat cu OMNeT++, mingenv.md. Toate comenzile de build se pot rula in acest shell
-La prima deschidere ./configure
+De deschide terminalul livrat cu OMNeT++, mingenv.md. Toate comenzile de build se pot rula in acest shell.
+La prima deschidere ./configure.
 IDE-ul se lanseaza cu omnetpp din acelasi shell.
 
-Se dezarhciveaza Veins in workspace-ul din OMNeT++. Se importa Veins in IDE-ul OMNeT++ (file-import-general-existing peojects into workspace-select veins). ACum veins e disponibil in workspace.
+Se dezarhciveaza Veins in workspace-ul din OMNeT++. Se importa Veins in IDE-ul OMNeT++ (file-import-general-existing peojects into workspace-select veins). Acum veins e disponibil in workspace.
 
-Pentru a fi disponibil in proiectul proproiu: project-properties-project refernces, bifeaza veins. 
+Pentru a fi disponibil in proiectul propriu: project-properties-project refernces, se bifeaza veins. 
 
 Pentru compilare project-build all
 
@@ -51,20 +51,20 @@ Rulare presupune 2 procese
 
 1. pornire legatura sumo-omnetpp
 
-Intr-un terminal mingenv, si il las sa ruleze pe tot parcurul simularii
+Intr-un terminal mingenv, si il las sa ruleze pe tot parcursul simularii: 
 /d/omn/veins-5.2/veins-veins-5.2/bin/veins_launchd -vv -c "C:/Program Files (x86)/Eclipse/Sumo/bin/sumo-gui"
 
-practic scriptul asculta pe portul 9999 si porneste sumo-gui automat cand omnetpp cere conexiune
+Practic scriptul asculta pe portul 9999 si porneste sumo-gui automat cand omnetpp cere conexiune
 
 2. lansare simularea
 
 Din IDE, click dreapta pe simulations/omentpp.ini, run as - OMNET++ Simulation, sau configure simulation de unde pot alege: qtenv sau cmdenv.
-Se alege scenariul dorit si se da start. Cand pornesc simularea din oment, va rula simulatn si sumo
+Se alege scenariul dorit si se da start. Cand pornesc simularea din oment, va rula simulatn si sumo.
 
 
 Rezultatele vor fi disponile la terminarea rularii, in fisierul simulations/results/
 
-De acolo in continuarea au fost prelucrate cu un script de python
+Se pot vizualiza direct in IDE-ul OMNeT++, sau se pot prelucra pentru agregarea datelor.
 
 
 
